@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER GENEH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .bg-ocean { background-color: #000d1a; }
+        .text-gradient { background: linear-gradient(to right, #2dd4bf, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gallery-item:hover .overlay { opacity: 1; transform: translateY(0); }
+        .social-btn:hover { transform: translateY(-5px); color: #2dd4bf; }
+    </style>
+</head>
+<body class="bg-ocean text-white">
+
+    <nav class="fixed top-0 w-full z-50 glass py-4 px-8 flex justify-between items-center transition-all duration-300">
+        <div class="text-2xl font-black tracking-tighter uppercase italic">THE KING <span class="text-orange-500">KUNTA</span></div>
+        <div class="hidden md:flex gap-8 text-sm font-bold tracking-widest uppercase">
+            <a href="#home" class="hover:text-teal-400 transition">Home</a>
+            <a href="#about" class="hover:text-teal-400 transition">About</a>
+            <a href="#gigs" class="hover:text-teal-400 transition">Gigs</a>
+            <a href="#book" class="hover:text-teal-400 transition">Bookings</a>
+        </div>
+        <button class="bg-teal-500 px-5 py-2 rounded-full text-xs font-bold uppercase text-black hover:bg-orange-500 transition">Live Sets</button>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80" class="w-full h-full object-cover opacity-30" alt="Mombasa Coast">
+            <div class="absolute inset-0 bg-gradient-to-t from-ocean via-transparent to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-6xl md:text-9xl font-black uppercase tracking-tighter italic leading-none">
+                Master <br> <span class="text-gradient">Geneh</span>
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-teal-200 font-light tracking-[0.3em] uppercase">THE KING KUNTA</p>
+            <div class="mt-10 flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#about" class="px-10 py-4 bg-teal-500 text-black font-black rounded-full hover:scale-105 transition-transform uppercase text-sm">The Story</a>
+                <a href="#book" class="px-10 py-4 border border-white rounded-full hover:bg-white hover:text-black transition uppercase text-sm font-bold">Book the Vibe</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-white/5">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="absolute -top-4 -left-4 w-full h-full border-2 border-teal-500 rounded-2xl z-0"></div>
+                <img src="DJsalim3.jpeg" class="relative z-10 rounded-2xl grayscale hover:grayscale-0 transition duration-700 shadow-2xl" alt="DJ Artist Profile">
+            </div>
+            <div>
+                <h2 class="text-5xl font-black uppercase tracking-tighter italic mb-6">Beyond the <span class="text-orange-500">Decks</span></h2>
+                <div class="space-y-4 text-gray-300 leading-relaxed text-lg">
+                    <p>Born and raised under the Mombasa sun, I bring the heat of the coast to every set. My sound is a fusion of Deep House, Amapiano,hiphop,dancehall,reggea,bongo,ohangla,rhumba,lingala and the soulful rhythms of the 254.</p>
+                    <P>Master Geneh Alias Salim Dixon is a prolific disc jockey and vibrant mcee who has more than 6years experience in entertainment industry.Apart from being an entertainer Geneh has extra skills as a sound technician and computer expert..
+He has thrilling evolution of vibes since he plays all round genres making him adaptable to any new environments be it for co-operate  and club gigs</P>
+                    <p>From the vibrant shores of Nyali to the electric nights of Diani, my music is a journey through the heart of coastal culture. Each beat is a wave, each drop a sunset.</p>
+                    <p>With over 5 years of residency across the most iconic beach clubs in Nyali and Diani, I don’t just play music—I curate an atmosphere where the waves meet the bassline.</p>
+                </div>
+                <div class="mt-8 flex gap-4">
+                    <div class="text-center p-4 border border-white/10 rounded-xl bg-white/5">
+                        <span class="block text-2xl font-bold text-teal-400">500+</span>
+                        <span class="text-xs uppercase tracking-widest text-gray-500">Sets Played</span>
+                    </div>
+                    <div class="text-center p-4 border border-white/10 rounded-xl bg-white/5">
+                        <span class="block text-2xl font-bold text-orange-500">10k+</span>
+                        <span class="text-xs uppercase tracking-widest text-gray-500">Crowd Energy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gigs" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-5xl font-black uppercase tracking-tighter italic">Past <span class="text-teal-500">Gigs</span></h2>
+                <p class="text-gray-400 mt-2 tracking-widest uppercase text-sm">Recent sets across the coastline</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="gallery-item relative group h-80 overflow-hidden rounded-2xl bg-gray-900 border border-white/10">
+                    <img src="kingkunta.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 transform group-hover:scale-110">
+                    <div class="overlay absolute inset-0 bg-gradient-to-t from-teal-900/90 to-transparent opacity-0 flex flex-col justify-end p-6 transition-all duration-300 translate-y-4">
+                        <span class="text-xs font-bold text-orange-400 uppercase tracking-widest">Beach Party</span>
+                        <h3 class="text-xl font-black uppercase">Moonshine Nyali</h3>
+                        <p class="text-sm text-gray-200">Sunset Sessions 2025</p>
+                    </div>
+                </div>
+                <div class="gallery-item relative group h-80 overflow-hidden rounded-2xl bg-gray-900 border border-white/10">
+                    <img src="DJsalim2_edited.jpg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 transform group-hover:scale-110">
+                    <div class="overlay absolute inset-0 bg-gradient-to-t from-orange-900/90 to-transparent opacity-0 flex flex-col justify-end p-6 transition-all duration-300 translate-y-4">
+                        <span class="text-xs font-bold text-teal-400 uppercase tracking-widest">Festival</span>
+                        <h3 class="text-xl font-black uppercase">Diani Festival</h3>
+                        <p class="text-sm text-gray-200">Main Stage Set</p>
+                    </div>
+                </div>
+                <div class="gallery-item relative group h-80 overflow-hidden rounded-2xl bg-gray-900 border border-white/10">
+                    <img src="DJsalim5.jpeg" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 transform group-hover:scale-110">
+                    <div class="overlay absolute inset-0 bg-gradient-to-t from-teal-900/90 to-transparent opacity-0 flex flex-col justify-end p-6 transition-all duration-300 translate-y-4">
+                        <span class="text-xs font-bold text-orange-400 uppercase tracking-widest">Residency</span>
+                        <h3 class="text-xl font-black uppercase">Luxury Confort,Mariakani</h3>
+                        <p class="text-sm text-gray-200">Weekly Afro-Tech Night</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="py-24 px-6 bg-white/5">
+        <div class="max-w-4xl mx-auto glass rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div class="mb-10 text-center">
+                <i data-lucide="calendar" class="mx-auto mb-4 text-orange-500"></i>
+                <h2 class="text-4xl font-bold uppercase tracking-tighter">Reserve the Set</h2>
+                <p class="text-teal-400 mt-2">Available for Residencies, Festivals, and Beach Parties.</p>
+            </div>
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-6" onsubmit="event.preventDefault(); alert('Booking Inquiry Sent!');">
+                <div class="space-y-2">
+                    <label class="text-xs uppercase tracking-widest text-gray-400 font-bold">Event Date</label>
+                    <input type="date" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:border-teal-500 outline-none transition text-white">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-xs uppercase tracking-widest text-gray-400 font-bold">Event Type</label>
+                    <select class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:border-teal-500 outline-none transition text-white">
+                        <option class="bg-ocean">Beach Party</option>
+                        <option class="bg-ocean">Club Set</option>
+                        <option class="bg-ocean">Private Wedding</option>
+                    </select>
+                </div>
+                <div class="md:col-span-2 space-y-2">
+                    <label class="text-xs uppercase tracking-widest text-gray-400 font-bold">Venue Details</label>
+                    <textarea rows="4" placeholder="Mention venue (e.g., Diani, Nyali) and specific vibes..." class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:border-teal-500 outline-none transition text-white"></textarea>
+                </div>
+                <button type="submit" class="md:col-span-2 py-4 bg-gradient-to-r from-teal-500 to-orange-500 text-white font-black uppercase tracking-widest rounded-xl hover:opacity-90 transition transform hover:scale-[1.01]">
+                    Send Inquiry
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 px-6 border-t border-white/10 mb-20">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="text-center md:text-left">
+                <h2 class="text-4xl font-black uppercase tracking-tighter mb-4">Let's Connect</h2>
+                <p class="text-gray-400 max-w-sm">For direct inquiries, press kits, or collaboration, reach out!!!.</p>
+                <div class="mt-6 flex items-center gap-4 justify-center md:justify-start group">
+                    <i data-lucide="mail" class="text-teal-400"></i>
+                    <span class="text-xl font-bold border-b border-white/20 group-hover:border-teal-500 transition cursor-pointer">salimmalique4@gmail.com</span>
+                </div>
+                <div class="mt-4 flex items-center gap-4 justify-center md:justify-start group">
+    <i data-lucide="phone" class="text-orange-500 h-5 w-5"></i>
+    <a href="tel:+254700000000" class="text-xl font-bold border-b border-white/20 group-hover:border-orange-500 transition cursor-pointer">
+        +254 111 388 142
+    </a>
+</div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-8">
+                <a href="https://www.facebook.com/profile.php?id=100069524962562" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
+                    <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
+                     <svg class="w-8 h-8" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="fbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1877F2"/>
+      <stop offset="100%" stop-color="#0A58CA"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#fbGradient)" d="M22 12a10 10 0 10-11.63 9.88v-6.99H7.9v-2.89h2.47V9.41c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.19.19 2.19.19v2.41h-1.23c-1.21 0-1.59.75-1.59 1.52v1.82h2.7l-.43 2.89h-2.27v6.99A10 10 0 0022 12z"/>
+</svg>
+                    </div>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-bold">Facebook</span>
+                </a>
+                <a href="https://www.tiktok.com/@master_geneh?_t=ZM-8znMYm8ZO34&_r=1" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
+                    <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
+                     <svg class="w-8 h-8" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="ttGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25F4EE"/>
+      <stop offset="50%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#FE2C55"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#ttGradient)" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.47V13.3c0 1.97-.67 3.92-1.92 5.43-1.47 1.79-3.79 2.87-6.11 2.84-2.54-.03-4.99-1.33-6.41-3.41-1.57-2.3-1.63-5.46-.14-7.82 1.34-2.12 3.73-3.47 6.22-3.47.16 0 .32 0 .48.02V10.9c-.83-.1-1.68.08-2.39.52-.77.47-1.34 1.25-1.55 2.13-.23.99-.04 2.06.52 2.9.56.84 1.49 1.41 2.49 1.53.97.12 2-.1 2.8-.7.88-.66 1.38-1.74 1.36-2.84V0l-.01.02z"/>
+</svg>
+                    </div>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-bold">TikTok</span>
+                </a>
+                <a href="https://www.instagram.com/master_geneh?igsh=b3p0b3htZzR6b2Mx" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
+                    <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
+                   <svg class="w-8 h-8" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="igGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f58529"/>
+      <stop offset="25%" stop-color="#dd2a7b"/>
+      <stop offset="50%" stop-color="#8134af"/>
+      <stop offset="75%" stop-color="#515bd4"/>
+      <stop offset="100%" stop-color="#feda77"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#igGradient)" d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5A3.75 3.75 0 0020 16.25v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.75 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+</svg>
+                    </div>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-bold">Instagram</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-0 left-0 right-0 z-50 glass border-t border-white/10 px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-4 w-1/3">
+            <div class="h-12 w-12 bg-gradient-to-tr from-orange-500 to-teal-500 rounded flex items-center justify-center animate-pulse">
+                <i data-lucide="music" class="text-white"></i>
+            </div>
+            <div class="hidden sm:block">
+                <div class="text-sm font-bold truncate">Best of Dj Geneh Mix 2026</div>
+                <div class="text-xs text-teal-400 uppercase tracking-tighter">Live from Mombasa</div>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center gap-2 w-1/3">
+            <div class="flex items-center gap-6">
+                <button class="text-gray-400 hover:text-white"><i data-lucide="skip-back" size="20"></i></button>
+                <button class="h-10 w-10 bg-white text-black rounded-full flex items-center justify-center hover:scale-110 transition"><i data-lucide="play" fill="black"></i></button>
+                <button class="text-gray-400 hover:text-white"><i data-lucide="skip-forward" size="20"></i></button>
+            </div>
+            <div class="w-full max-w-xs h-1 bg-white/10 rounded-full overflow-hidden hidden md:block">
+                <div class="w-1/3 h-full bg-teal-500"></div>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-end gap-4 w-1/3">
+            <i data-lucide="volume-2" class="text-gray-400 hidden md:block" size="18"></i>
+            <span class="text-[10px] border border-teal-500/50 px-2 py-1 rounded text-teal-400 font-bold uppercase">HQ Audio</span>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'bg-black/90');
+                nav.classList.remove('py-4', 'glass');
+            } else {
+                nav.classList.add('py-4', 'glass');
+                nav.classList.remove('py-2', 'bg-black/90');
+            }
+        });
+    </script>
+</body>
+</html>
