@@ -8,6 +8,18 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
+        * { box-sizing: border-box; }
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
         .bg-ocean { background-color: #000d1a; }
@@ -57,8 +69,8 @@
                 <h2 class="text-5xl font-black uppercase tracking-tighter italic mb-6">Beyond the <span class="text-orange-500">Decks</span></h2>
                 <div class="space-y-4 text-gray-300 leading-relaxed text-lg">
                     <p>Born and raised under the Mombasa sun, I bring the heat of the coast to every set. My sound is a fusion of Deep House, Amapiano,hiphop,dancehall,reggea,bongo,ohangla,rhumba,lingala and the soulful rhythms of the 254.</p>
-                    <P>Master Geneh Alias Salim Dixon is a prolific disc jockey and vibrant mcee who has more than 6years experience in entertainment industry.Apart from being an entertainer Geneh has extra skills as a sound technician and computer expert..
-He has thrilling evolution of vibes since he plays all round genres making him adaptable to any new environments be it for co-operate  and club gigs</P>
+                    <p>Master Geneh Alias Salim Dixon is a prolific disc jockey and vibrant mcee who has more than 6years experience in entertainment industry.Apart from being an entertainer Geneh has extra skills as a sound technician and computer expert..
+He has thrilling evolution of vibes since he plays all round genres making him adaptable to any new environments be it for co-operate  and club gigs</p>
                     <p>From the vibrant shores of Nyali to the electric nights of Diani, my music is a journey through the heart of coastal culture. Each beat is a wave, each drop a sunset.</p>
                     <p>With over 5 years of residency across the most iconic beach clubs in Nyali and Diani, I don’t just play music—I curate an atmosphere where the waves meet the bassline.</p>
                 </div>
@@ -105,7 +117,6 @@ He has thrilling evolution of vibes since he plays all round genres making him a
                         <span class="text-xs font-bold text-orange-400 uppercase tracking-widest">Residency</span>
                         <h3 class="text-xl font-black uppercase">Luxury Confort,Mariakani</h3>
                         <p class="text-sm text-gray-200">Weekly Afro-Tech Night</p>
-
                     </div>
                 </div>
             </div>
@@ -153,57 +164,65 @@ He has thrilling evolution of vibes since he plays all round genres making him a
                     <span class="text-xl font-bold border-b border-white/20 group-hover:border-teal-500 transition cursor-pointer">salimmalique4@gmail.com</span>
                 </div>
                 <div class="mt-4 flex items-center gap-4 justify-center md:justify-start group">
-    <i data-lucide="phone" class="text-orange-500 h-5 w-5"></i>
-    <a href="tel:+254700000000" class="text-xl font-bold border-b border-white/20 group-hover:border-orange-500 transition cursor-pointer">
-        +254 111 388 142
-    </a>
-</div>
+                    <i data-lucide="phone" class="text-orange-500 h-5 w-5"></i>
+                    <a href="tel:+254700000000" class="text-xl font-bold border-b border-white/20 group-hover:border-orange-500 transition cursor-pointer">
+                        +254 111 388 142
+                    </a>
+                </div>
             </div>
 
             <div class="flex flex-wrap justify-center gap-8">
+                <!-- social icons unchanged -->
+                <!-- (kept exactly as you wrote them) -->
+                
+                <!-- FACEBOOK -->
                 <a href="https://www.facebook.com/profile.php?id=100069524962562" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
                     <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
-                     <svg class="w-8 h-8" viewBox="0 0 24 24">
-  <defs>
-    <linearGradient id="fbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1877F2"/>
-      <stop offset="100%" stop-color="#0A58CA"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#fbGradient)" d="M22 12a10 10 0 10-11.63 9.88v-6.99H7.9v-2.89h2.47V9.41c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.19.19 2.19.19v2.41h-1.23c-1.21 0-1.59.75-1.59 1.52v1.82h2.7l-.43 2.89h-2.27v6.99A10 10 0 0022 12z"/>
-</svg>
+                        <svg class="w-8 h-8" viewBox="0 0 24 24">
+                            <defs>
+                                <linearGradient id="fbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#1877F2"/>
+                                    <stop offset="100%" stop-color="#0A58CA"/>
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#fbGradient)" d="M22 12a10 10 0 10-11.63 9.88v-6.99H7.9v-2.89h2.47V9.41c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.19.19 2.19.19v2.41h-1.23c-1.21 0-1.59.75-1.59 1.52v1.82h2.7l-.43 2.89h-2.27v6.99A10 10 0 0022 12z"/>
+                        </svg>
                     </div>
                     <span class="text-[10px] uppercase tracking-[0.2em] font-bold">Facebook</span>
                 </a>
+
+                <!-- TIKTOK -->
                 <a href="https://www.tiktok.com/@master_geneh?_t=ZM-8znMYm8ZO34&_r=1" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
                     <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
-                     <svg class="w-8 h-8" viewBox="0 0 24 24">
-  <defs>
-    <linearGradient id="ttGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#25F4EE"/>
-      <stop offset="50%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#FE2C55"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#ttGradient)" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.47V13.3c0 1.97-.67 3.92-1.92 5.43-1.47 1.79-3.79 2.87-6.11 2.84-2.54-.03-4.99-1.33-6.41-3.41-1.57-2.3-1.63-5.46-.14-7.82 1.34-2.12 3.73-3.47 6.22-3.47.16 0 .32 0 .48.02V10.9c-.83-.1-1.68.08-2.39.52-.77.47-1.34 1.25-1.55 2.13-.23.99-.04 2.06.52 2.9.56.84 1.49 1.41 2.49 1.53.97.12 2-.1 2.8-.7.88-.66 1.38-1.74 1.36-2.84V0l-.01.02z"/>
-</svg>
+                        <svg class="w-8 h-8" viewBox="0 0 24 24">
+                            <defs>
+                                <linearGradient id="ttGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#25F4EE"/>
+                                    <stop offset="50%" stop-color="#000000"/>
+                                    <stop offset="100%" stop-color="#FE2C55"/>
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#ttGradient)" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.47V13.3c0 1.97-.67 3.92-1.92 5.43-1.47 1.79-3.79 2.87-6.11 2.84-2.54-.03-4.99-1.33-6.41-3.41-1.57-2.3-1.63-5.46-.14-7.82 1.34-2.12 3.73-3.47 6.22-3.47.16 0 .32 0 .48.02V10.9c-.83-.1-1.68.08-2.39.52-.77.47-1.34 1.25-1.55 2.13-.23.99-.04 2.06.52 2.9.56.84 1.49 1.41 2.49 1.53.97.12 2-.1 2.8-.7.88-.66 1.38-1.74 1.36-2.84V0l-.01.02z"/>
+                        </svg>
                     </div>
                     <span class="text-[10px] uppercase tracking-[0.2em] font-bold">TikTok</span>
                 </a>
+
+                <!-- INSTAGRAM -->
                 <a href="https://www.instagram.com/master_geneh?igsh=b3p0b3htZzR6b2Mx" target="_blank" class="social-btn flex flex-col items-center gap-2 transition duration-300">
                     <div class="h-16 w-16 glass rounded-2xl flex items-center justify-center hover:bg-teal-500/20">
-                   <svg class="w-8 h-8" viewBox="0 0 24 24">
-  <defs>
-    <linearGradient id="igGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f58529"/>
-      <stop offset="25%" stop-color="#dd2a7b"/>
-      <stop offset="50%" stop-color="#8134af"/>
-      <stop offset="75%" stop-color="#515bd4"/>
-      <stop offset="100%" stop-color="#feda77"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#igGradient)" d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5A3.75 3.75 0 0020 16.25v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.75 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
-</svg>
+                        <svg class="w-8 h-8" viewBox="0 0 24 24">
+                            <defs>
+                                <linearGradient id="igGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#f58529"/>
+                                    <stop offset="25%" stop-color="#dd2a7b"/>
+                                    <stop offset="50%" stop-color="#8134af"/>
+                                    <stop offset="75%" stop-color="#515bd4"/>
+                                    <stop offset="100%" stop-color="#feda77"/>
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#igGradient)" d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5A3.75 3.75 0 0020 16.25v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.75 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+                        </svg>
                     </div>
                     <span class="text-[10px] uppercase tracking-[0.2em] font-bold">Instagram</span>
                 </a>
@@ -211,8 +230,8 @@ He has thrilling evolution of vibes since he plays all round genres making him a
         </div>
     </footer>
 
-    <div class="fixed bottom-0 left-0 right-0 z-50 glass border-t border-white/10 px-6 py-4 flex items-center justify-between">
-        <div class="flex items-center gap-4 w-1/3">
+    <div class="fixed bottom-0 left-0 right-0 z-50 glass border-t border-white/10 px-6 py-4 flex items-center justify-between overflow-hidden">
+        <div class="flex items-center gap-4 w-1/3 min-w-0">
             <div class="h-12 w-12 bg-gradient-to-tr from-orange-500 to-teal-500 rounded flex items-center justify-center animate-pulse">
                 <i data-lucide="music" class="text-white"></i>
             </div>
@@ -222,7 +241,7 @@ He has thrilling evolution of vibes since he plays all round genres making him a
             </div>
         </div>
 
-        <div class="flex flex-col items-center gap-2 w-1/3">
+        <div class="flex flex-col items-center gap-2 w-1/3 min-w-0">
             <div class="flex items-center gap-6">
                 <button class="text-gray-400 hover:text-white"><i data-lucide="skip-back" size="20"></i></button>
                 <button class="h-10 w-10 bg-white text-black rounded-full flex items-center justify-center hover:scale-110 transition"><i data-lucide="play" fill="black"></i></button>
@@ -233,7 +252,7 @@ He has thrilling evolution of vibes since he plays all round genres making him a
             </div>
         </div>
 
-        <div class="flex items-center justify-end gap-4 w-1/3">
+        <div class="flex items-center justify-end gap-4 w-1/3 min-w-0">
             <i data-lucide="volume-2" class="text-gray-400 hidden md:block" size="18"></i>
             <span class="text-[10px] border border-teal-500/50 px-2 py-1 rounded text-teal-400 font-bold uppercase">HQ Audio</span>
         </div>
